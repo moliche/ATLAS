@@ -94,10 +94,12 @@ div#formcol1 input {
 #multchoice input,
 #multchoice span {
   float: left;
+
 }
 
 #multchoice span {
   margin: 0 0.3em;
+  padding-bottom: 1em;
 }
 
 .submit-button {
