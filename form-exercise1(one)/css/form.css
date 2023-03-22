@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+
+/* form styling */
+
+label {
+  margin-right: 0.3em;
+  width: 5.3em; /* I made this deliberately wide – come up with your own optimal width */
+  display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+  margin-right: 20px;
+}
+
+li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 1.5em;
+}
+
+legend {
+  font-weight: bold;
+}
+
+em {
+  padding: 1em;
+}
+
+.asterisk {
+  color: red;
+}
+
+.reqfield:required + .asterisk  {
+  margin-left: 5px;
+  font-size: 1.2em;
+  color: red;
+}
+
+fieldset {
+  border: 2px solid rgb(3, 10, 109);
+  border-radius: 8px;
+  background-color: rgba(182, 182, 182, 0.288);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+#wrapper {
+  width: 60%;
+  margin-left: 4%;
+}
+
+div#formcol1 {
+  float: left;
+  width: 100%;
+}
+
+div#formcol1 label {
+  float: left;
+  width: 5.3em;
+  text-align: right;
+  display: block;
+  padding-right: 0.3em;
+  clear: right;
+}
+
+#formcol1 li {
+  list-style: none;
+}
+
+div#formcol1 ul li {
+  margin-left: -2em;
+  margin-bottom: 0.4em;
+}
+
+div#formcol1 input {
+  text-align: left;
+  display: block;
+  clear: right;
+  background-color: #f4f4f4;
+}
+
+/* div for radio buttons and check boxes */
+
+#multchoice {
+  clear: left;
+  padding-top: 1em;
+}
+
+#multchoice input,
+#multchoice span {
+  float: left;
+
+}
+
+#multchoice span {
+  margin: 0 0.3em;
+  padding-bottom: 1em;
+}
+
+.submit-button {
+  margin: 2em 0;
+  float: right;
+  width: 99%;
+}
+
+/* provides highlighting of current focus*/
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+  color: #fff !important;
+  background-color: #f30303 !important;
+}
+
+/* */
+
+#formcol1 input.reqfield {
+  background: #ff9;
+}
+
+/* end of form css */
