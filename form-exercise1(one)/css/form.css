@@ -30,13 +30,10 @@ em {
 
 .asterisk {
   color: red;
+   font-size: 1.2em;
 }
 
-.reqfield:required + .asterisk  {
-  margin-left: 5px;
-  font-size: 1.2em;
-  color: red;
-}
+
 
 fieldset {
   border: 2px solid rgb(3, 10, 109);
