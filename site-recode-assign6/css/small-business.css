@@ -1,0 +1,33 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+h1{
+  padding-top: 1em;
+}
+
+:focus{
+
+  outline: 2px solid red;
+}
+
+.btn-primary:focus {
+  outline: 2px solid red ;
+
+}
+
+#Accessing_Higher_Ground_focuses_on_the_implementation_and_benefits_of{
+  padding-left: 15px;
+}
+
+
+
+.bg-secondary{
+  background-color: rgba(100, 97, 97, 0.5) !important;
+}
+
